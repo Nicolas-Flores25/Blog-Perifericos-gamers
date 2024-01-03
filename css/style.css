@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #f0eff6;
+}
+
+
+.menu {
+    height: 70px;
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 20px 0 0;
+    line-height: 2em;
+    border-bottom: 10px solid #230e76;
+    margin-bottom: 1.5em;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.resumen {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.resumen h3 {
+    border-bottom: 10px solid #230e76;
+    padding-bottom: .5em;
+}
