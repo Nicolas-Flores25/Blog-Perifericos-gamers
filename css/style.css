@@ -22,12 +22,12 @@
     padding: 20px;
 }
 
-.titulo {
+.titulo_main {
     text-align: center;
     margin: 20px 0 0;
     line-height: 2em;
-    border-bottom: 10px solid #230e76;
-    margin-bottom: 1.5em;
+    border-bottom: 5px solid #8615ac;
+    margin-bottom: .5em;
 }
 
 .tarjetas {
@@ -42,12 +42,101 @@
     margin: 10px;
 }
 
+.fecha {
+    color: #868686;
+    font-size: 15px;
+}
+
+.card .card-body .card-text {
+    margin-bottom: 10px;
+    height: 5em;
+}
+
+.titulo-seccion {
+    height: 40px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+
+.redes_sociales {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.titulo_aside {
+    border-bottom: 5px solid #1533ac;
+    padding-bottom: 10px;
+}
+
+.youtube {
+    display: inline-block;
+    padding: 30px 45px 30px 45px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.youtube:hover .youtube-icon {
+    display: none;
+}
+
+.youtube:hover {
+    background: red;
+    border: none;
+}
+
+.youtube2-icon {
+    display: none;
+}
+
+.youtube:hover .youtube2-icon {
+    display: inline-block;
+}
+
+.instagram {
+    display: inline-block;
+    padding: 30px 45px 30px 45px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5851db,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #fd1d1d);
+            border: none;
+}
+
+.instagram2-icon {
+    display: none;
+}
+
+
+.instagram:hover .instagram-icon {
+    display: none;
+    border: none;
+}
+
+.instagram:hover .instagram2-icon {
+    display: inline-block;
+    border: none;
+}
+
+
+
+
 .resumen {
     margin-bottom: 40px;
     padding: 20px;
 }
 
 .resumen h3 {
-    border-bottom: 10px solid #230e76;
+    border-bottom: 5px solid #8615ac;
     padding-bottom: .5em;
 }
