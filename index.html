@@ -17,29 +17,36 @@
 
 <body>
   <!-------------------------------- Navbar ------------------------------------------>
-  <nav class="navbar navbar-expand-lg" id="Inicio">
-    <div class="container-fluid">
-      <a class="navbar-brand h1 ms-5 " href="#">Periféricos Gamers</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
-          <li class="nav-item">
-            <a class="nav-link" href="#Inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Perifericos">Periféricos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Informacion">Información</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div class="row">
+    <header class="menu">
+      <nav class="navbar navbar-expand-lg h-100">
+        <div class="container-fluid">
+          <a class="navbar-brand me-0 ms-5" href="#">Periféricos Gamer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Dónde comprar?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
   <!----------------------------------- Slider --------------------------------------->
+
   <div class="slider">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -60,11 +67,14 @@
   </div>
   <!----------------------------------- main --------------------------------------->
 
-  <div class="container" id="Perifericos">
-    
-        <div class="container tarjetas">      
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/1.jpg" class="card-img-top" alt="..."></a>
+  <div class="container">
+    <div class="row">
+      <section class="main justify-content-center col-12 col-lg-8">
+        <h1 class="titulo_main">Periféricos para jugar</h1>
+        <div class="container tarjetas">
+
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Monitor</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -73,8 +83,8 @@
             </div>
           </div>
 
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/2.jpg" class="card-img-top" alt="..."></a>
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Teclado</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -83,8 +93,8 @@
             </div>
           </div>
 
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/3.jpg" class="card-img-top" alt="..."></a>
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Mouse</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -93,8 +103,8 @@
             </div>
           </div>
 
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/4.jpg" class="card-img-top" alt="..."></a>
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Silla</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -103,8 +113,8 @@
             </div>
           </div>
 
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/5.jpg" class="card-img-top" alt="..."></a>
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Mousepad</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -113,8 +123,8 @@
             </div>
           </div>
 
-          <div class="card" style="width: 20rem;">
-            <a href=""><img src="IMG/6.jpg" class="card-img-top" alt="..."></a>
+          <div class="card card-main" style="width: 20rem;">
+            <img src="IMG/6.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h4>Audifonos</h4>
               <p class="fecha">1 de Enero del 2024</p>
@@ -124,18 +134,43 @@
           </div>
         </div>
 
-        <div class="container resumen" id="Informacion">
+        <div class="container resumen">
           <div class="titulo-resumen">
             <h3>¿Periféricos gamer?</h3>
           </div>
-          <div class="resumen">
+          <div class="texto-info">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsa. Vitae dolore, adipisci quidem esse
               alias tempora libero dolorum recusandae dicta deserunt nulla nostrum suscipit non aliquam illo incidunt
-              id.
+              id. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi commodi exercitationem! Fugiat
+              aliquid officiis fugit, sit eum sequi tempora, similique ea rerum saepe placeat quam? Iusto earum corporis
+              sapiente.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="container resumen">
+          <div class="titulo-info">
+            <h3>Donde comprar periféricos gamers?</h3>
+          </div>
+          <div class="texto-main">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsa. Vitae dolore, adipisci quidem esse
+              alias tempora libero dolorum recusandae dicta deserunt nulla nostrum suscipit non aliquam illo incidunt
+              id. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi commodi exercitationem! Fugiat
+              aliquid officiis fugit, sit eum sequi tempora, similique ea rerum saepe placeat quam? Iusto earum corporis
+              sapiente.
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsa. Vitae dolore, adipisci quidem esse
+              alias tempora libero dolorum recusandae dicta deserunt nulla nostrum suscipit non aliquam illo incidunt
+              id. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eligendi commodi exercitationem! Fugiat
+              aliquid officiis fugit, sit eum sequi tempora, similique ea rerum saepe placeat quam? Iusto earum corporis
+              sapiente.
             </p>
           </div>
         </div>
       </section>
+
 
       <aside class="row col-lg-4 col-md-12 mb-5">
         <div class="widget redes-sociales">
@@ -169,6 +204,7 @@
 
         </div>
       </aside>
+
     </div>
   </div>
 
@@ -206,8 +242,6 @@
     </div>
 
   </footer>
-
-
 
 </body>
 <script src="js/bootstrap.bundle.min.js"></script>
