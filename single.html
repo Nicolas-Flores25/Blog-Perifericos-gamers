@@ -17,32 +17,38 @@
 
 <body>
   <!-------------------------------- Navbar ------------------------------------------>
-  <nav class="navbar navbar-expand-lg" id="Inicio">
-    <div class="container-fluid">
-      <a class="navbar-brand h1 ms-5 " href="#">Periféricos Gamers</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
-          <li class="nav-item">
-            <a class="nav-link" href="#Inicio">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Perifericos">Periféricos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Informacion">Información</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div class=" menu-nav" id="inicio">
+    <header class="menu">
+      <nav class="navbar navbar-expand-lg h-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Periféricos Gamer</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link" href="#informacion">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#informacion">Información</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#comprar">¿Dónde comprar?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
   
   <!----------------------------------- main --------------------------------------->
 
-  <div class="container" id="Perifericos">
+  <div class="container main-single" id="Perifericos">
     <div class="row justify-content-center">
       <section class="main justify-content-center col-12 col-lg-8">
         <div class="container tarjetas">
@@ -54,12 +60,13 @@
               <h4>Monitor</h4>
               <p class="fecha">1 de Enero del 2024</p>
               <div class="texto">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                <p >Some quick example text to build on the card title and make up the bulk of the
                   card's content. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae eligendi modi quisquam nemo quas, porro cupiditate repellat repellendus ab nobis eveniet eaque libero dolor quam adipisci dolorem expedita suscipit. Consequatur.</p>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  <br>
+                <p>Some quick example text to build on the card title and make up the bulk of the
                   card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officiis repellat ad, ea adipisci ratione, itaque unde quam ab eum velit repellendus perferendis cum veniam totam cupiditate eos provident at?</p>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquid ducimus eveniet dolorum provident laudantium, pariatur iste sunt aperiam harum architecto id, et culpa esse quam non nesciunt cumque nulla!</p>
+                  <br>
+                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquid ducimus eveniet dolorum provident laudantium, pariatur iste sunt aperiam harum architecto id, et culpa esse quam non nesciunt cumque nulla!</p>
               </div>
             </div>
           </div>
@@ -91,8 +98,8 @@
             </div>
           </div>
 
-          <div class="ad d-flex justify-content-center align-items-center">
-            <a href="#"><img src="IMG/ad2.jpg" width="300px" height="300"></a>
+          <div class="ad-aside">
+            <a href="#"><img class="img-ad" src="IMG/ad2.jpg" width="300px" height="300px"></a>
           </div>
 
 
@@ -107,14 +114,14 @@
     <div class="ad container hidden-xs">
       <div class="row">
         <div class="AD col-md-12 d-flex align-items-center justify-content-center">
-          <img class="" src="IMG/anuncios.jpg" alt="">
+          <img class="img-ad" src="IMG/anuncios.jpg" alt="">
         </div>
       </div>
     </div>
 
 
-    <div class="links">
-      <div class="container">
+    <div class="menu">
+      <div class="container-fluid">
         <div class="row">
           <ul class="links">
             <li>
