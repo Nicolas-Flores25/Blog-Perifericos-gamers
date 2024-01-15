@@ -48,6 +48,10 @@ body {
     margin-top: 30px;
 }
 
+.single {
+    margin-top: 50px;
+}
+
 .titulo_main {
     margin: 20px 0 0;
     line-height: 2em;
@@ -83,7 +87,6 @@ body {
 
 .card .card-body .card-text {
     margin-bottom: 10px;
-    height: 5em;
 }
 
 .resumen {
@@ -235,7 +238,6 @@ text-align: center;
 .img-ad {
     width: 90%;
 }
-
 
 
 
